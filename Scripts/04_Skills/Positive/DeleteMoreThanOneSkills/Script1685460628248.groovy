@@ -1,0 +1,52 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('01_Common/Positive/LoginTestCase'), [('url') : 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Qualification_Skills_Add/Page_OrangeHRM/span_Admin'))
+
+WebUI.click(findTestObject('Object Repository/Qualification_Skills_Add/Page_OrangeHRM/span_Qualifications'))
+
+WebUI.click(findTestObject('Object Repository/Qualification_Skills_Add/Page_OrangeHRM/a_Skills'))
+
+WebUI.click(findTestObject('Qualification_skills_delete/v1_delete_skills/Page_OrangeHRM/wood working_delete'))
+
+WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('Qualification_skills_delete/v1_delete_skills/Page_OrangeHRM/wood working_delete'), 
+    3)
+
+WebUI.click(findTestObject('Qualification_skills_delete/v1_delete_skills/Page_OrangeHRM/3d_yes_delete'))
+
+WebUI.verifyElementPresent(findTestObject('Qualification_skills_delete/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 
+    0)
+
+WebUI.click(findTestObject('Qualification_skills_delete/v1_delete_skills/Page_OrangeHRM/craft_delete'))
+
+WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('Qualification_skills_delete/v1_delete_skills/Page_OrangeHRM/craft_delete'), 
+    3)
+
+WebUI.click(findTestObject('Qualification_skills_delete/v1_delete_skills/Page_OrangeHRM/3d_yes_delete'))
+
+WebUI.verifyElementPresent(findTestObject('Qualification_skills_delete/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 
+    0)
+

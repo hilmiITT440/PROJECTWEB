@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Less_Than_8_Characters_passwd</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49e94743-2286-4a9d-ad78-7b7d63b94b55</testCaseGuid>
+</TestCaseEntity>

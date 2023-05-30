@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddNewAcc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87b9ff58-2fff-4368-aeaf-df19130799cb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca28d337-3f72-4164-8d9c-f97dc7e7eaac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'domDom21'</defaultValue>
+      <description></description>
+      <id>ca28d337-3f72-4164-8d9c-f97dc7e7eaac</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

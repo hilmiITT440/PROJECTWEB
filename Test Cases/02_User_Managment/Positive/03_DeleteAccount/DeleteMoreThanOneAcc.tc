@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteMoreThanOneAcc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e2f3951-bbf2-4ecb-a7fa-e2b5419824cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10350d29-0ac8-4436-99aa-446b0b6edfe4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'domDom21'</defaultValue>
+      <description></description>
+      <id>10350d29-0ac8-4436-99aa-446b0b6edfe4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

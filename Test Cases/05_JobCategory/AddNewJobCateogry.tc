@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddNewJobCateogry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9315e2ab-5ca3-4f8d-9f0c-cc3803487397</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>713fe565-0395-42cd-80f2-7e1ca58d4095</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Jobcategory</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>713fe565-0395-42cd-80f2-7e1ca58d4095</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>inputJob</value>
+      <variableId>1d750b43-53e1-4206-a0a5-255b8b0b4301</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'QA'</defaultValue>
+      <description></description>
+      <id>1d750b43-53e1-4206-a0a5-255b8b0b4301</id>
+      <masked>false</masked>
+      <name>inputJob</name>
+   </variable>
+</TestCaseEntity>

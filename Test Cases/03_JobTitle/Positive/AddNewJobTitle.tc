@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddNewJobTitle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88f1b004-a4ed-47e9-ad62-21fbf712b7b1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75dbd9cc-6a19-49f6-8121-02d545d8c603</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9ae0ec3-4b14-440a-be10-f9f394aa30f5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6bb1eae-c8e8-4dec-9a05-7d01adf03e66</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Blockchain engineer'</defaultValue>
+      <description></description>
+      <id>75dbd9cc-6a19-49f6-8121-02d545d8c603</id>
+      <masked>false</masked>
+      <name>jobtitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'do blockchain stuff'</defaultValue>
+      <description></description>
+      <id>e9ae0ec3-4b14-440a-be10-f9f394aa30f5</id>
+      <masked>false</masked>
+      <name>jobdesc</name>
+   </variable>
+   <variable>
+      <defaultValue>'something something here'</defaultValue>
+      <description></description>
+      <id>f6bb1eae-c8e8-4dec-9a05-7d01adf03e66</id>
+      <masked>false</masked>
+      <name>txtarea</name>
+   </variable>
+</TestCaseEntity>

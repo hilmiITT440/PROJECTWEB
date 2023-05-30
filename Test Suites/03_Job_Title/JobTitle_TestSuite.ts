@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>JobTitle_TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>87ab1858-9242-4ee1-8823-75142a37bdbf</testSuiteGuid>
+   <testCaseLink>
+      <guid>e127cb12-9838-426e-b34e-ccd12100ae19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/03_JobTitle/Positive/AddNewJobTitle</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>55c53d62-0815-421f-80bd-a6a3dd16d9ce</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Jobcategory</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>55c53d62-0815-421f-80bd-a6a3dd16d9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobtitle</value>
+         <variableId>75dbd9cc-6a19-49f6-8121-02d545d8c603</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55c53d62-0815-421f-80bd-a6a3dd16d9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobdesc</value>
+         <variableId>e9ae0ec3-4b14-440a-be10-f9f394aa30f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55c53d62-0815-421f-80bd-a6a3dd16d9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>txtarea</value>
+         <variableId>f6bb1eae-c8e8-4dec-9a05-7d01adf03e66</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e46120cb-6fbe-430b-a316-1a547eaaab3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/03_JobTitle/Positive/DeleteJobTitle</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>778b525d-e091-4154-baaf-315819fbdb64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/03_JobTitle/Positive/DeleteMoreThanOne</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

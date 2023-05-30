@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddSkills</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a60b8cd5-ac8e-4995-a79c-fd12c18bdc11</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>10ae0abe-2dfd-49c4-b6ed-edf7dcfb375e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Jobcategory</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>10ae0abe-2dfd-49c4-b6ed-edf7dcfb375e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>skills</value>
+      <variableId>b72539a6-6704-457b-887a-6adbaffd10fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>10ae0abe-2dfd-49c4-b6ed-edf7dcfb375e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>skillDesc</value>
+      <variableId>fe9bcaa7-0e14-4486-a74b-cbd81965970b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Performing'</defaultValue>
+      <description></description>
+      <id>b72539a6-6704-457b-887a-6adbaffd10fd</id>
+      <masked>false</masked>
+      <name>skills</name>
+   </variable>
+   <variable>
+      <defaultValue>'Able to perform on stage'</defaultValue>
+      <description></description>
+      <id>fe9bcaa7-0e14-4486-a74b-cbd81965970b</id>
+      <masked>false</masked>
+      <name>skillDesc</name>
+   </variable>
+</TestCaseEntity>
