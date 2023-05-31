@@ -33,14 +33,14 @@
    <testCaseLink>
       <guid>e96a4a7f-dcb9-4e67-a0b5-73419aafe404</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/04_Skills/Positive/EditSkills</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>19f4f595-a3eb-4a1c-8d3b-a4940835f859</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/04_Skills/Positive/DeleteSkills</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

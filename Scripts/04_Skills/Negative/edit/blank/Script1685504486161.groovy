@@ -30,13 +30,15 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Qualification_Skills_Edit/Page_OrangeHRM/btn_edit_performing'))
 
-WebUI.clearText(findTestObject('Object Repository/Qualification_Skills_Edit/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Qualification_Skills_Edit/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'arts')
+CustomKeywords.'clearText.clearTextTesting.enterText'(findTestObject('Qualification_Skills_Add/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 
+    '  ')
 
-WebUI.click(findTestObject('Object Repository/Qualification_Skills_Edit/Page_OrangeHRM/button_Save'))
+CustomKeywords.'clearText.clearTextTesting.enterText'(findTestObject('Qualification_Skills_Add/Page_OrangeHRM/textarea_Description_oxd-textarea oxd-texta_fed1e5'), 
+    '  ')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Qualification_Skills_Edit/Page_OrangeHRM/div_SuccessSuccessfully Updated'), 
-    0)
+WebUI.click(findTestObject('Qualification_Skills_Edit/Page_OrangeHRM/button_Save'))
+
+WebUI.verifyElementPresent(findTestObject('Qualification_Skills_Add/Page_OrangeHRM/span_Required'), 0)
 

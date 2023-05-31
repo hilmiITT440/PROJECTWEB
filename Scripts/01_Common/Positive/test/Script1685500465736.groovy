@@ -17,26 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('01_Common/Positive/LoginTestCase'), [('url') : 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Qualification_Skills_Add/Page_OrangeHRM/span_Admin'))
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.click(findTestObject('Object Repository/Qualification_Skills_Add/Page_OrangeHRM/span_Qualifications'))
+WebUI.setText(findTestObject('Object Repository/test je/Page_OrangeHRM/input_Username_username'), 'Admin')
 
-WebUI.click(findTestObject('Object Repository/Qualification_Skills_Add/Page_OrangeHRM/a_Skills'))
+CustomKeywords.'clearText.clearTextTesting.enterText'(findTestObject('TS02_SearchUser/Page_OrangeHRM/input_Username_username'), 
+    'ValueAdmin')
 
-WebUI.delay(3)
+WebUI.setEncryptedText(findTestObject('Object Repository/test je/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Qualification_Skills_Edit/Page_OrangeHRM/btn_edit_performing'))
-
-WebUI.clearText(findTestObject('Object Repository/Qualification_Skills_Edit/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Qualification_Skills_Edit/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'arts')
-
-WebUI.click(findTestObject('Object Repository/Qualification_Skills_Edit/Page_OrangeHRM/button_Save'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Qualification_Skills_Edit/Page_OrangeHRM/div_SuccessSuccessfully Updated'), 
-    0)
+WebUI.click(findTestObject('Object Repository/test je/Page_OrangeHRM/button_Login'))
 
