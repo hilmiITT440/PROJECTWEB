@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_Edu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>924f40a9-7f61-4d6a-a516-bf1d7b651374</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5055a636-49da-4254-b219-7cab6994d668</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cert'</defaultValue>
+      <description></description>
+      <id>5055a636-49da-4254-b219-7cab6994d668</id>
+      <masked>false</masked>
+      <name>edu_input</name>
+   </variable>
+</TestCaseEntity>
